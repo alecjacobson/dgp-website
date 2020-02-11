@@ -1,0 +1,247 @@
+:root {
+  --navy: #14234A;
+  --gold: #FBDA00;
+}
+
+html, body, div, table, tr, td
+{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  border-collapse: collapse;
+}
+
+body
+{
+  font-family: 'Linux Biolinum', sans-serif;
+  background-color: var(--navy);
+}
+
+#menu
+{
+  background-color: var(--navy);
+  color: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+}
+body
+{
+  padding-top: 60px;
+}
+#menu table
+{
+  width: 100%;
+}
+
+#menu table tr td
+{
+  line-height:  4em;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+
+#menu a
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+#corner_logo img
+{
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100px;
+  vertical-align: middle;
+}
+#corner_logo img
+
+#footer 
+{
+  background-color: var(--navy);
+  color: #fff;
+  /*position: fixed;
+  left: 0;
+  bottom: 0;
+  */
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+#footer table
+{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer_logo img
+{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  width: 270px;
+  vertical-align: middle;
+}
+
+.chunk
+{
+  text-align: center;
+  padding: 30px;
+}
+.chunk h1
+{
+  font-size: 5em;
+}
+.chunk p
+{
+  font-size: 2.5em;
+}
+
+body div.chunk:nth-of-type(2n+2)
+{
+  background-color: white;
+  color: var(--navy);
+}
+
+body div.chunk:nth-of-type(2n+1)
+{
+  background-color: var(--gold);
+  color: black;
+}
+
+.headshot
+{
+  width: 48px;
+  padding-right: 10px;
+}
+
+table#peopletable
+{
+  text-align: left;
+  border-collapse:separate;
+  border-spacing: 0 1em;
+}
+
+.peoplename
+{
+  font-weight: bold;
+}
+
+.peoplename a
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+.peopletitle
+{
+  font-style: italic;
+}
+
+#publicationswindow
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  min-width: 500px;
+  height: 500px;
+  overflow: scroll;
+  text-align: left;
+  border-top: 1px var(--navy) solid;
+  border-left: 1px var(--navy) solid;
+  border-right: 1px var(--navy) solid;
+  padding: 10px 20px;
+}
+
+a.pubtitle
+{
+  color: var(--navy);
+}
+
+.authors
+{
+  color: var(--navy);
+}
+
+.venue
+{
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#contactoutertable
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#address
+{
+  text-align: left;
+  font-size: 2.5em;
+}
+
+#where
+{
+  text-align: left;
+}
+
+#contacttable
+{
+  text-align: left;
+  border-collapse:separate;
+  border-spacing: 1em 1em;
+}
+
+@font-face {
+    font-family: 'Linux Libertine'; /* normal */
+    src: url('./fonts/linux-libertine/LinLibertine_R.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Linux Libertine'; /* italic */
+    src: url('./fonts/linux-libertine/LinLibertine_RI.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Linux Libertine'; /* bold */
+    src: url('./fonts/linux-libertine/LinLibertine_RB.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Linux Libertine'; /* bold */
+    src: url('./fonts/linux-libertine/LinLibertine_RBI.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Linux Biolinum'; /* normal */
+    src: url('./fonts/linux-biolinum/LinBiolinum_R.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Linux Biolinum'; /* italic */
+    src: url('./fonts/linux-biolinum/LinBiolinum_RI.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Linux Biolinum'; /* bold */
+    src: url('./fonts/linux-biolinum/LinBiolinum_RB.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Linux Biolinum'; /* bold */
+    src: url('./fonts/linux-biolinum/LinBiolinum_RBI.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
