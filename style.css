@@ -239,9 +239,11 @@ a.pubtitle
     font-weight: bold;
     font-style: normal;
 }
+/*
 @font-face {
-    font-family: 'Linux Biolinum'; /* bold */
+    font-family: 'Linux Biolinum';
     src: url('./fonts/linux-biolinum/LinBiolinum_RBI.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 }
+*/
